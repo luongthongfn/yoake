@@ -1,7 +1,7 @@
-//@import "../import/_variable";
-//@import "../import/_mixin";
-//@import "../import/_function";
-//@import "../import/_placeholder";
+@import "../import/_variable";
+@import "../import/_mixin";
+@import "../import/_function";
+@import "../import/_placeholder";
 //@import "../import/_fonts";
 
 %title {
@@ -209,6 +209,7 @@
     margin-bottom: vwSP(30);
     img {
       width: 100%;
+      height: auto;
     }
   }
   .prod-txt {
@@ -220,6 +221,9 @@
       font-size: vwSP(30);
       color: #707070;
       font-weight: bold;
+      &:hover{
+        color: #0c6136;
+      }
     }
   }
   .prod-price {
@@ -573,8 +577,13 @@
     margin-bottom: 0;
     &--title{
       font-size: 38px;
-      color: #707070;
       margin-bottom: 118px;
+      a{
+        color: #707070;
+        &:hover{
+          color: #0c6136;
+        }
+      }
     }
     .prod-container{
       width: 1230px;
