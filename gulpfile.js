@@ -60,5 +60,6 @@ gulp.task('sass', function () {
         .pipe(gulp.dest(cssDestPath))
         .pipe(browserSync.stream());
 });
+gulp.task('build', ['setPath','sass']);
 gulp.task('default', ['watch']);
   
