@@ -301,7 +301,7 @@
     .desc {
       font-size: vwSP(22);
       color: #707070;
-      >div{
+      > div {
         margin-bottom: 10px;
       }
       .txt {
@@ -341,6 +341,29 @@
     }
   }
 
+}
+
+.sc-contact {
+  max-width: 1000px;
+  padding: 0 15px;
+  margin: auto;
+  margin-top: 100px;
+  input, textarea{
+    width: 100%;
+    border: 1px solid #707070;
+    padding: 10px 15px 8px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+  }
+  label{
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+  }
+  input[type='submit']{
+    width: auto;
+    background: #3A3A3A;
+    color: #fff;
+  }
 }
 
 @include pc() {
@@ -537,23 +560,23 @@
       object-position: center center;
     }
     .dp-mid-center {
-      margin-top: vwPC(60) ;
+      margin-top: vwPC(60);
     }
     .page-title {
-      font-size: vwPC(80) ;
-      margin-bottom: vwPC(21) ;
+      font-size: vwPC(80);
+      margin-bottom: vwPC(21);
     }
     .lang-jpn {
-      font-size: vwPC(24) ;
+      font-size: vwPC(24);
     }
   }
   .sc-store {
     &--arc {
       display: flex;
-      width: vwPC(1000) ;
-      margin-bottom: vwPC(172) ;
+      width: vwPC(1000);
+      margin-bottom: vwPC(172);
       .province-title {
-        font-size: vwPC(24) ;
+        font-size: vwPC(24);
         flex: 0 0 21%;
         border-right: 1px solid transparentize(#707070, .5);
       }
@@ -566,17 +589,17 @@
 
       }
       .store-name {
-        font-size: vwPC(20) ;
+        font-size: vwPC(20);
         text-align: center;
         flex: 0 0 50%;
       }
       .desc, .phone, .store-site {
-        font-size: vwPC(18) ;
+        font-size: vwPC(18);
       }
-      .desc{
-        .view-map{
-          font-size: vwPC(18) ;
-          padding: vwPC(4)  vwPC(6)  0;
+      .desc {
+        .view-map {
+          font-size: vwPC(18);
+          padding: vwPC(4) vwPC(6) 0;
         }
       }
     }
@@ -819,8 +842,8 @@
       .desc, .phone, .store-site {
         font-size: 18px;
       }
-      .desc{
-        .view-map{
+      .desc {
+        .view-map {
           font-size: 18px;
           padding: 4px 6px 0;
         }
